@@ -258,18 +258,21 @@ img {
 
     .containerButton {
         flex-direction: column;
+        width: 100px;
+        height: 100vh;
     }
 
     .containerForSlide {
         text-align: center;
         width: 100%;
         margin: 0;
-        height: 700px;
+        height: 100vh;
     }
 
     .text {
         display: block;
         margin: 0 auto;
+        padding: 0;
     }
 
     .image-sliderfade {
@@ -345,18 +348,23 @@ img {
 
     .containerButton {
         flex-direction: column;
+        width: 70px;
+        height: 100vh;
     }
-
+.but{
+    vertical-align: middle;
+}
     .containerForSlide {
         text-align: center;
         width: 100%;
         margin: 0;
-        height: 700px;
+        height: 100vh;
     }
 
     .text {
         display: block;
         margin: 0 auto;
+        padding: 0;
     }
 
     .image-sliderfade {

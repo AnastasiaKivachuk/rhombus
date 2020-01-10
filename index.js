@@ -1,4 +1,4 @@
-makeInitialSetup();
+// makeInitialSetup();
 
 let slides = document.getElementsByClassName("image-sliderfade");
 let buttons = document.querySelectorAll('.but');
@@ -7,6 +7,10 @@ let buttonsWall = document.querySelectorAll('.picture');
 let goal = document.createElement('span');
 goal.className = 'target';
 goal.innerHTML = "Цель ";
+
+slides[0].style.display = "block";
+buttons[0].style.flexGrow = "2";
+buttons[0].prepend(goal);
 
 window.onresize = () => {
     if (document.body.offsetWidth <= 500) {
@@ -49,8 +53,6 @@ function makeActiveSlide(index) {
     buttons[index].prepend(goal);
 }
 
-function makeInitialSetup() {
-    slides[0].style.display = "block";
-    buttons[0].style.flexGrow = "2";
-    buttons[0].prepend(goal);
-}
+// function makeInitialSetup() {
+//
+// }
