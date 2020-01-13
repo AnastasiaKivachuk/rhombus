@@ -14,10 +14,12 @@ buttons[0].prepend(goal);
 
 window.onresize = () => {
     if (document.body.offsetWidth <= 500) {
+        clear();
         slides[0].style.display = "block";
         buttons[0].style.flexGrow = "2";
-        slides[17].style.display = "none";
-        buttons[17].style.flexGrow = "1";
+        buttons[0].prepend(goal);
+        // slides[17].style.display = "none";
+        // buttons[17].style.flexGrow = "1";
     }
 }
 
@@ -53,6 +55,3 @@ function makeActiveSlide(index) {
     buttons[index].prepend(goal);
 }
 
-// function makeInitialSetup() {
-//
-// }

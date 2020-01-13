@@ -156,7 +156,7 @@ img {
     bottom: 195px
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1220px) {
     .picture > img {
         width: 150px;
         transform: rotate(-45deg);
@@ -173,7 +173,7 @@ img {
     }
 }
 
-@media only screen and (max-width: 1140px) {
+@media only screen and (max-width: 1160px) {
     .picture > img {
         width: 140px;
         transform: rotate(-45deg);
@@ -189,7 +189,7 @@ img {
     }
 }
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 1100px) {
     .picture > img {
         width: 130px;
         transform: rotate(-45deg);
@@ -205,7 +205,7 @@ img {
     }
 }
 
-@media only screen and (max-width: 1030px) {
+@media only screen and (max-width: 1045px) {
     .picture > img {
         width: 120px;
         transform: rotate(-45deg);
@@ -245,6 +245,71 @@ img {
 
     .picture {
         margin: 16px;
+
+    }
+}
+@media only screen and (max-width: 925px) {
+    .picture > img {
+        width: 110px;
+        transform: rotate(-45deg);
+    }
+
+    .picture:nth-child(n+7):nth-child(-n+11) {
+        left: 69px;
+        bottom: 66px
+    }
+
+
+    :nth-child(n+12) {
+        bottom: 133px
+    }
+
+    .picture {
+        margin: 14px;
+
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    .picture > img {
+        width: 104px;
+        transform: rotate(-45deg);
+    }
+
+    .picture:nth-child(n+7):nth-child(-n+11) {
+        left: 66px;
+        bottom: 65px
+    }
+
+
+    :nth-child(n+12) {
+        bottom: 130px
+    }
+
+    .picture {
+        margin: 14px;
+
+    }
+}
+
+@media only screen and (max-width: 845px) {
+    .picture > img {
+        width: 95px;
+        transform: rotate(-45deg);
+    }
+
+    .picture:nth-child(n+7):nth-child(-n+11) {
+        left: 60px;
+        bottom: 61px
+    }
+
+
+    :nth-child(n+12) {
+        bottom: 120px
+    }
+
+    .picture {
+        margin: 13px;
 
     }
 }
@@ -306,17 +371,17 @@ img {
     }
 
     .picture:nth-child(n+8):nth-child(-n+10) {
-        left: 79px;
-        bottom: 158px;
+        left: 84px;
+        bottom: 164px;
     }
 
     .picture:nth-child(n+11):nth-child(-n+14) {
-        bottom: 237px;
+        bottom: 245px;
     }
 
     .picture:nth-child(n+15):nth-child(-n+17) {
         left: 84px;
-        bottom: 317px;
+        bottom: 326px;
     }
 
     :nth-child(n+12) {
@@ -335,9 +400,327 @@ img {
     .picture:nth-child(11) {
         margin-right: 24px;
     }
-
-
 }
+
+@media only screen and (max-width: 778px) {
+
+
+    .picture > img {
+        width: 110px;
+    }
+
+    .picture:nth-child(n+1):nth-child(-n+3) {
+        left: 79px;
+    }
+
+    .picture:nth-child(n+4):nth-child(-n+7) {
+        bottom: 78px;
+    }
+
+    .picture:nth-child(n+8):nth-child(-n+10) {
+        left: 79px;
+        bottom: 158px;
+    }
+
+    .picture:nth-child(n+11):nth-child(-n+14) {
+        bottom: 237px;
+    }
+
+    .picture:nth-child(n+15):nth-child(-n+17) {
+        left: 79px;
+        bottom: 317px;
+    }
+}
+
+@media only screen and (max-width: 738px) {
+    .picture {
+        margin: 22px;
+    }
+    .picture:nth-child(11) {
+        margin-right: 22px;
+    }
+    .picture > img {
+        width: 105px;
+    }
+
+    .picture:nth-child(n+1):nth-child(-n+3) {
+        left: 75px;
+    }
+
+    .picture:nth-child(n+4):nth-child(-n+7) {
+        bottom: 73px;
+    }
+
+    .picture:nth-child(n+8):nth-child(-n+10) {
+        left: 75px;
+        bottom: 147px;
+    }
+
+    .picture:nth-child(n+11):nth-child(-n+14) {
+        bottom: 220px;
+    }
+
+    .picture:nth-child(n+15):nth-child(-n+17) {
+        left: 75px;
+        bottom: 294px;
+    }
+}
+@media only screen and (max-width: 703px) {
+    .picture {
+        margin: 21px;
+    }
+    .picture:nth-child(11) {
+        margin-right: 21px;
+    }
+
+    .picture > img {
+        width: 100px;
+    }
+
+    .picture:nth-child(n+1):nth-child(-n+3) {
+        left: 70px;
+    }
+
+    .picture:nth-child(n+4):nth-child(-n+7) {
+        bottom: 70px;
+    }
+
+    .picture:nth-child(n+8):nth-child(-n+10) {
+        left: 70px;
+        bottom: 140px;
+    }
+
+    .picture:nth-child(n+11):nth-child(-n+14) {
+        bottom: 205px;
+    }
+
+    .picture:nth-child(n+15):nth-child(-n+17) {
+        left: 70px;
+        bottom: 280px;
+    }
+}
+@media only screen and (max-width: 675px) {
+    .picture {
+        margin: 20px;
+    }
+    .picture:nth-child(11) {
+        margin-right: 20px;
+    }
+    .picture > img {
+        width: 95px;
+    }
+
+    .picture:nth-child(n+1):nth-child(-n+3) {
+        left: 68px;
+    }
+
+    .picture:nth-child(n+4):nth-child(-n+7) {
+        bottom: 67px;
+    }
+
+    .picture:nth-child(n+8):nth-child(-n+10) {
+        left: 68px;
+        bottom: 134px;
+    }
+
+    .picture:nth-child(n+11):nth-child(-n+14) {
+        bottom: 201px;
+    }
+
+    .picture:nth-child(n+15):nth-child(-n+17) {
+        left: 68px;
+        bottom: 270px;
+    }
+}
+
+@media only screen and (max-width: 648px) {
+
+    .picture > img {
+        width: 90px;
+    }
+
+    .picture:nth-child(n+1):nth-child(-n+3) {
+        left: 65px;
+    }
+
+    .picture:nth-child(n+4):nth-child(-n+7) {
+        bottom: 67px;
+    }
+
+    .picture:nth-child(n+8):nth-child(-n+10) {
+        left: 65px;
+        bottom: 133px;
+    }
+
+    .picture:nth-child(n+11):nth-child(-n+14) {
+        bottom: 199px;
+    }
+
+    .picture:nth-child(n+15):nth-child(-n+17) {
+        left: 65px;
+        bottom: 267px;
+    }
+}
+@media only screen and (max-width: 648px) {
+    .picture {
+        margin: 17px;
+    }
+    .picture:nth-child(11) {
+        margin-right: 17px;
+    }
+    .picture > img {
+        width: 90px;
+    }
+
+    .picture:nth-child(n+1):nth-child(-n+3) {
+        left: 62px;
+    }
+
+    .picture:nth-child(n+4):nth-child(-n+7) {
+        bottom: 59px;
+    }
+
+    .picture:nth-child(n+8):nth-child(-n+10) {
+        left: 62px;
+        bottom: 118px;
+    }
+
+    .picture:nth-child(n+11):nth-child(-n+14) {
+        bottom: 176px;
+    }
+
+    .picture:nth-child(n+15):nth-child(-n+17) {
+        left: 62px;
+        bottom: 235px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .picture {
+        margin: 16px;
+    }
+    .picture:nth-child(11) {
+        margin-right: 16px;
+    }
+    .picture > img {
+        width: 85px;
+    }
+
+    .picture:nth-child(n+1):nth-child(-n+3) {
+        left: 58px;
+    }
+
+    .picture:nth-child(n+4):nth-child(-n+7) {
+        bottom: 55px;
+    }
+
+    .picture:nth-child(n+8):nth-child(-n+10) {
+        left: 58px;
+        bottom: 111px;
+    }
+
+    .picture:nth-child(n+11):nth-child(-n+14) {
+        bottom: 167px;
+    }
+
+    .picture:nth-child(n+15):nth-child(-n+17) {
+        left: 58px;
+        bottom: 223px;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .picture {
+        margin: 15px;
+    }
+    .picture:nth-child(11) {
+        margin-right: 15px;
+    }
+    .picture > img {
+        width: 80px;
+    }
+
+    .picture:nth-child(n+1):nth-child(-n+3) {
+        left: 55px;
+    }
+
+    .picture:nth-child(n+4):nth-child(-n+7) {
+        bottom: 52px;
+    }
+
+    .picture:nth-child(n+8):nth-child(-n+10) {
+        left: 55px;
+        bottom: 104px;
+    }
+
+    .picture:nth-child(n+11):nth-child(-n+14) {
+        bottom: 156px;
+    }
+
+    .picture:nth-child(n+15):nth-child(-n+17) {
+        left: 55px;
+        bottom: 208px;
+    }
+}
+
+@media only screen and (max-width: 541px) {
+
+    .picture > img {
+        width: 75px;
+    }
+
+    .picture:nth-child(n+1):nth-child(-n+3) {
+        left: 53px;
+    }
+
+    .picture:nth-child(n+4):nth-child(-n+7) {
+        bottom: 51px;
+    }
+
+    .picture:nth-child(n+8):nth-child(-n+10) {
+        left: 53px;
+        bottom: 102px;
+    }
+
+    .picture:nth-child(n+11):nth-child(-n+14) {
+        bottom: 153px;
+    }
+
+    .picture:nth-child(n+15):nth-child(-n+17) {
+        left: 53px;
+        bottom: 204px;
+    }
+}
+
+@media only screen and (max-width: 525px) {
+
+    .picture > img {
+        width: 70px;
+    }
+
+    .picture:nth-child(n+1):nth-child(-n+3) {
+        left: 50px;
+    }
+
+    .picture:nth-child(n+4):nth-child(-n+7) {
+        bottom: 51px;
+    }
+
+    .picture:nth-child(n+8):nth-child(-n+10) {
+        left: 50px;
+        bottom: 101px;
+    }
+
+    .picture:nth-child(n+11):nth-child(-n+14) {
+        bottom: 151px;
+    }
+
+    .picture:nth-child(n+15):nth-child(-n+17) {
+        left: 50px;
+        bottom: 202px;
+    }
+}
+
 
 @media only screen and (max-width: 500px) {
     .mainWrap {
