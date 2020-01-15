@@ -1,3 +1,4 @@
+
 body {
     margin: 0 auto;
     font-family: Verdana, sans-serif;
@@ -10,7 +11,9 @@ body {
 
 .image-sliderfade {
     display: none;
+    position: relative;
 }
+
 
 img {
     vertical-align: middle;
@@ -26,7 +29,6 @@ img {
     color: #f2f2f2;
     font-size: 20px;
     padding: 4rem 2rem;
-    /*position: absolute;*/
 }
 
 .сolor_1 {
@@ -121,96 +123,402 @@ img {
 }
 
 .containerIcons {
+    width: 100%;
     align-items: center;
     justify-content: center;
+    margin: 3vw 0 0;
     position: relative;
     display: grid;
-    margin: 0 auto;
-    /*grid-template-rows: 1fr 1fr 1fr ;*/
-    grid-template-columns: repeat(11, 1fr);
-    /*grid-gap: 1vw;*/
-    grid-template-areas:
-            "cell1 . cell2 . cell3 . cell4 . cell5 . cell6"
-            " . cell7 . cell8 . cell9 . cell10 . cell11 ."
-            "cell12 . cell13 . cell14 . cell15 . cell16 . cell17"
-}
-
-.picture {
-    width: auto;
-    transform: rotate(45deg);
-    overflow: hidden;
-    /*display: inline-block;*/
-    padding: 0;
-    position: relative;
-    grid-area: cell;
-}
-
-.picture > img {
-    transform: rotate(-45deg);
+    grid-template-columns: repeat(11, 95px);
+    grid-template-rows: repeat(3, 95px);
+    grid-template-areas: "cell1 . cell2 . cell3 . cell4 . cell5 . cell6" " . cell7 . cell8 . cell9 . cell10 . cell11 ." "cell12 . cell13 . cell14 . cell15 . cell16 . cell17"
 }
 
 .cell1 {
     grid-area: cell1;
-    /*align-self: stretch;*/
-    /*align-items: center;*/
     align-items: center;
     justify-content: center;
+    align-self: center;
 }
+
+.middle {
+    width: 50px;
+    height: 50px;
+    /*background: #1f6ea6;*/
+    position: relative;
+    top: 50%;
+    left: 50%;
+}
+
+.img1::after {
+    content: '';
+    background-image: url(img/iconColor_1.png);
+    width: 150px;
+    height: 150px;
+    right: -50%;
+    bottom: 0%;
+    position: absolute;
+    background-size: cover;
+}
+
+.img2::after {
+    content: '';
+    background-image: url(img/iconColor_2.png);
+    width: 150px;
+    height: 150px;
+    right: -50%;
+    bottom: 0%;
+    position: absolute;
+    background-size: cover;
+
+}
+
+.img3::after {
+    content: '';
+    background-image: url(img/iconColor_3.png);
+    width: 150px;
+    height: 150px;
+    right: -50%;
+    bottom: 0%;
+    position: absolute;
+    background-size: cover;
+
+}
+
+.img4::after {
+    content: '';
+    background-image: url(img/iconColor_4.png);
+    width: 150px;
+    height: 150px;
+    right: -50%;
+    bottom: 0%;
+    position: absolute;
+    background-size: cover;
+}
+
+.img5::after {
+    content: '';
+    background-image: url(img/iconColor_5.png);
+    width: 150px;
+    height: 150px;
+    right: -50%;
+    bottom: 0%;
+    position: absolute;
+    background-size: cover;
+}
+
+.img6::after {
+    content: '';
+    background-image: url(img/iconColor_6.png);
+    width: 150px;
+    height: 150px;
+    right: -50%;
+    bottom: 0%;
+    position: absolute;
+    background-size: cover;
+}
+
+.img7::after {
+    content: '';
+    background-image: url(img/iconColor_7.png);
+    width: 150px;
+    height: 150px;
+    right: -50%;
+    bottom: 0%;
+    position: absolute;
+    background-size: cover;
+}
+
+.img8::after {
+    content: '';
+    background-image: url(img/iconColor_8.png);
+    width: 150px;
+    height: 150px;
+    right: -50%;
+    bottom: 0%;
+    position: absolute;
+    background-size: cover;
+}
+
+.img9::after {
+    content: '';
+    background-image: url(img/iconColor_9.png);
+    width: 150px;
+    height: 150px;
+    right: -50%;
+    bottom: 0%;
+    position: absolute;
+    background-size: cover;
+}
+
+.img10::after {
+    content: '';
+    background-image: url(img/iconColor_10.png);
+    width: 150px;
+    height: 150px;
+    right: -50%;
+    bottom: 0%;
+    position: absolute;
+    background-size: cover;
+}
+
+.img11::after {
+    content: '';
+    background-image: url(img/iconColor_11.png);
+    width: 150px;
+    height: 150px;
+    right: -50%;
+    bottom: 0%;
+    position: absolute;
+    background-size: cover;
+}
+
+.img12::after {
+    content: '';
+    background-image: url(img/iconColor_12.png);
+    width: 150px;
+    height: 150px;
+    right: -50%;
+    bottom: 0%;
+    position: absolute;
+    background-size: cover;
+}
+
+.img13::after {
+    content: '';
+    background-image: url(img/iconColor_13.png);
+    width: 150px;
+    height: 150px;
+    right: -50%;
+    bottom: 0%;
+    position: absolute;
+    background-size: cover;
+}
+
+.img14::after {
+    content: '';
+    background-image: url(img/iconColor_14.png);
+    width: 150px;
+    height: 150px;
+    right: -50%;
+    bottom: 0%;
+    position: absolute;
+    background-size: cover;
+}
+
+.img15::after {
+    content: '';
+    background-image: url(img/iconColor_15.png);
+    width: 150px;
+    height: 150px;
+    right: -50%;
+    bottom: 0%;
+    position: absolute;
+    background-size: cover;
+}
+
+.img16::after {
+    content: '';
+    background-image: url(img/iconColor_16.png);
+    width: 150px;
+    height: 150px;
+    right: -50%;
+    bottom: 0%;
+    position: absolute;
+    background-size: cover;
+}
+
+.img17::after {
+    content: '';
+    background-image: url(img/iconColor_17.png);
+    width: 150px;
+    height: 150px;
+    right: -50%;
+    bottom: 0%;
+    position: absolute;
+    background-size: cover;
+}
+
+
 .cell2 {
     grid-area: cell2;
-    align-items: center;
-    justify-content: center;
+
 }
+
 .cell3 {
     grid-area: cell3;
 }
+
 .cell4 {
     grid-area: cell4;
 }
+
 .cell5 {
     grid-area: cell5;
 }
+
 .cell6 {
     grid-area: cell6;
 }
+
 .cell7 {
     grid-area: cell7;
 }
+
 .cell8 {
     grid-area: cell8;
 }
+
 .cell9 {
     grid-area: cell9;
 }
+
 .cell10 {
     grid-area: cell10;
 }
-.cell4 {
-    grid-area: cell4;
-}
+
 .cell11 {
     grid-area: cell11;
 }
+
 .cell12 {
     grid-area: cell12;
 }
+
 .cell13 {
     grid-area: cell13;
 }
+
 .cell14 {
     grid-area: cell14;
 }
+
 .cell15 {
     grid-area: cell15;
 }
+
 .cell16 {
     grid-area: cell16;
 }
+
 .cell17 {
     grid-area: cell17;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1200px) and (min-width: 800px) {
+
+    .containerIcons {
+        grid-template-columns: repeat(11, 8vw);
+        grid-template-rows: repeat(3, 8vw);
+       }
+
+    .img1::after {
+        right: -0%;
+        width: 12.5vw;
+        height: 12.5vw;
+    }
+
+    .img2::after {
+        right: -0%;
+        width: 12.5vw;
+        height: 12.5vw;
+
+    }
+
+    .img3::after {
+        right: -0%;
+        width: 12.5vw;
+        height: 12.5vw;
+
+    }
+
+    .img4::after {
+        right: -0%;
+        width: 12.5vw;
+        height: 12.5vw;
+    }
+
+    .img5::after {
+        right: 0%;
+        width: 12.5vw;
+        height: 12.5vw;
+    }
+
+    .img6::after {
+        right: 0%;
+        width: 12.5vw;
+        height: 12.5vw;
+    }
+
+    .img7::after {
+        right: 0%;
+        width: 12.5vw;
+        height: 12.5vw;
+    }
+
+    .img8::after {
+        right: 0%;
+        width: 12.5vw;
+        height: 12.5vw;
+    }
+
+    .img9::after {
+        right: 0%;
+        width: 12.5vw;
+        height: 12.5vw;
+    }
+
+    .img10::after {
+        right: 0%;
+        width: 12.5vw;
+        height: 12.5vw;
+    }
+
+    .img11::after {
+        right: 0%;
+        width: 12.5vw;
+        height: 12.5vw;
+    }
+
+    .img12::after {
+        right: 0%;
+        width: 12.5vw;
+        height: 12.5vw;
+    }
+
+    .img13::after {
+        right: 0%;
+        width: 12.5vw;
+        height: 12.5vw;
+    }
+
+    .img14::after {
+        right: 0%;
+        width: 12.5vw;
+        height: 12.5vw;
+    }
+
+    .img15::after {
+        right: 0%;
+        width: 12.5vw;
+        height: 12.5vw;
+    }
+
+    .img16::after {
+        right: 0%;
+        width: 12.5vw;
+        height: 12.5vw;
+    }
+
+    .img17::after {
+        right: 0%;
+        width: 12.5vw;
+        height: 12.5vw;
+    }
+}
+
+
+@media only screen and (max-width: 800px) and (min-width: 500px) {
     .mainWrap {
         display: flex;
         align-items: stretch;
@@ -243,18 +551,124 @@ img {
     .picture > img {
         width: 120px;
     }
+
     .containerIcons {
         display: grid;
-        margin: 0 auto;
-        /*grid-template-rows: 1fr 1fr 1fr ;*/
-        grid-template-columns: repeat(7, 1fr);
-        /*grid-gap: 1vw;*/
-        grid-template-areas:
-                ". cell1 . cell2 . cell3 . "
-                "cell4 . cell5 . cell6 . cell7"
-                ". cell8 . cell9 . cell10 ."
-                "cell11 . cell12 . cell13 . cell14 "
-                ". cell15 . cell16 . cell17 ."
+        position: absolute;
+        margin: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        grid-template-rows: repeat(5, 10vw) ;
+        grid-template-columns: repeat(7, 10vw);
+        grid-template-areas: ". cell1 . cell2 . cell3 . "
+                            "cell4 . cell5 . cell6 . cell7"
+                            ". cell8 . cell9 . cell10 ."
+                            "cell11 . cell12 . cell13 . cell14 "
+                            ". cell15 . cell16 . cell17 ."
+    }
+
+    .img1::after {
+        bottom: 0%;
+        width: 14vw;
+        height: 14vw;
+    }
+
+    .img2::after {
+        bottom: 0%;
+        width: 14vw;
+        height: 14vw;
+
+    }
+
+    .img3::after {
+        bottom: 0%;
+        width: 14vw;
+        height: 14vw;
+
+    }
+
+    .img4::after {
+        bottom: 0%;
+        width: 14vw;
+        height: 14vw;
+    }
+
+    .img5::after {
+        bottom: 0%;
+        width: 14vw;
+        height: 14vw;
+    }
+
+    .img6::after {
+        bottom: 0%;
+        width: 14vw;
+        height: 14vw;
+    }
+
+    .img7::after {
+        bottom: 0%;
+        width: 14vw;
+        height: 14vw;
+    }
+
+    .img8::after {
+        bottom: 0%;
+        width: 14vw;
+        height: 14vw;
+    }
+
+    .img9::after {
+        bottom: 0%;
+        width: 14vw;
+        height: 14vw;
+    }
+
+    .img10::after {
+        bottom: 0%;
+        width: 14vw;
+        height: 14vw;
+    }
+
+    .img11::after {
+        bottom: 0%;
+        width: 14vw;
+        height: 14vw;
+    }
+
+    .img12::after {
+        bottom: 0%;
+        width: 14vw;
+        height: 14vw;
+    }
+
+    .img13::after {
+        bottom: 0%;
+        width: 14vw;
+        height: 14vw;
+    }
+
+    .img14::after {
+        bottom: 0%;
+        width: 14vw;
+        height: 14vw;
+    }
+
+    .img15::after {
+        bottom: 0%;
+        width: 14vw;
+        height: 14vw;
+    }
+
+    .img16::after {
+        bottom: 0%;
+        width: 14vw;
+        height: 14vw;
+    }
+
+    .img17::after {
+        bottom: 0%;
+        width: 14vw;
+        height: 14vw;
     }
 
 }
@@ -272,9 +686,11 @@ img {
         width: 70px;
         height: 100vh;
     }
-.but{
-    vertical-align: middle;
-}
+
+    .but {
+        vertical-align: middle;
+    }
+
     .containerForSlide {
         text-align: center;
         width: 100%;
@@ -293,10 +709,10 @@ img {
     }
 
     .all {
-    display: none;
+        display: none;
     }
 
-    .containerIcons{
+    .containerIcons {
         display: none;
     }
 }
