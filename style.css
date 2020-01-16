@@ -114,12 +114,23 @@ img {
     text-align: center;
     flex-grow: 1;
     cursor: pointer;
+    box-sizing: border-box;
 
 }
 
 .image-sliderfade > img {
     padding: 2rem;
 
+}
+
+.wrapForRhombus {
+    width: 150px;
+    height: 150px;
+    transform: rotate(45deg);
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    left: -25%;
 }
 
 .containerIcons {
@@ -131,23 +142,9 @@ img {
     display: grid;
     grid-template-columns: repeat(11, 95px);
     grid-template-rows: repeat(3, 95px);
-    grid-template-areas: "cell1 . cell2 . cell3 . cell4 . cell5 . cell6" " . cell7 . cell8 . cell9 . cell10 . cell11 ." "cell12 . cell13 . cell14 . cell15 . cell16 . cell17"
-}
-
-.cell1 {
-    grid-area: cell1;
-    align-items: center;
-    justify-content: center;
-    align-self: center;
-}
-
-.middle {
-    width: 50px;
-    height: 50px;
-    /*background: #1f6ea6;*/
-    position: relative;
-    top: 50%;
-    left: 50%;
+    grid-template-areas: "cell1 . cell2 . cell3 . cell4 . cell5 . cell6"
+    " . cell7 . cell8 . cell9 . cell10 . cell11 ."
+    "cell12 . cell13 . cell14 . cell15 . cell16 . cell17"
 }
 
 .img1::after {
@@ -155,10 +152,9 @@ img {
     background-image: url(img/iconColor_1.png);
     width: 150px;
     height: 150px;
-    right: -50%;
-    bottom: 0%;
     position: absolute;
     background-size: cover;
+    transform: rotate(-45deg);
 }
 
 .img2::after {
@@ -166,10 +162,9 @@ img {
     background-image: url(img/iconColor_2.png);
     width: 150px;
     height: 150px;
-    right: -50%;
-    bottom: 0%;
     position: absolute;
     background-size: cover;
+    transform: rotate(-45deg);
 
 }
 
@@ -178,10 +173,9 @@ img {
     background-image: url(img/iconColor_3.png);
     width: 150px;
     height: 150px;
-    right: -50%;
-    bottom: 0%;
     position: absolute;
     background-size: cover;
+    transform: rotate(-45deg);
 
 }
 
@@ -190,10 +184,9 @@ img {
     background-image: url(img/iconColor_4.png);
     width: 150px;
     height: 150px;
-    right: -50%;
-    bottom: 0%;
     position: absolute;
     background-size: cover;
+    transform: rotate(-45deg);
 }
 
 .img5::after {
@@ -201,10 +194,9 @@ img {
     background-image: url(img/iconColor_5.png);
     width: 150px;
     height: 150px;
-    right: -50%;
-    bottom: 0%;
     position: absolute;
     background-size: cover;
+    transform: rotate(-45deg);
 }
 
 .img6::after {
@@ -212,10 +204,9 @@ img {
     background-image: url(img/iconColor_6.png);
     width: 150px;
     height: 150px;
-    right: -50%;
-    bottom: 0%;
     position: absolute;
     background-size: cover;
+    transform: rotate(-45deg);
 }
 
 .img7::after {
@@ -223,10 +214,9 @@ img {
     background-image: url(img/iconColor_7.png);
     width: 150px;
     height: 150px;
-    right: -50%;
-    bottom: 0%;
     position: absolute;
     background-size: cover;
+    transform: rotate(-45deg);
 }
 
 .img8::after {
@@ -234,10 +224,9 @@ img {
     background-image: url(img/iconColor_8.png);
     width: 150px;
     height: 150px;
-    right: -50%;
-    bottom: 0%;
     position: absolute;
     background-size: cover;
+    transform: rotate(-45deg);
 }
 
 .img9::after {
@@ -245,10 +234,9 @@ img {
     background-image: url(img/iconColor_9.png);
     width: 150px;
     height: 150px;
-    right: -50%;
-    bottom: 0%;
     position: absolute;
     background-size: cover;
+    transform: rotate(-45deg);
 }
 
 .img10::after {
@@ -256,10 +244,9 @@ img {
     background-image: url(img/iconColor_10.png);
     width: 150px;
     height: 150px;
-    right: -50%;
-    bottom: 0%;
     position: absolute;
     background-size: cover;
+    transform: rotate(-45deg);
 }
 
 .img11::after {
@@ -267,10 +254,9 @@ img {
     background-image: url(img/iconColor_11.png);
     width: 150px;
     height: 150px;
-    right: -50%;
-    bottom: 0%;
     position: absolute;
     background-size: cover;
+    transform: rotate(-45deg);
 }
 
 .img12::after {
@@ -278,10 +264,9 @@ img {
     background-image: url(img/iconColor_12.png);
     width: 150px;
     height: 150px;
-    right: -50%;
-    bottom: 0%;
     position: absolute;
     background-size: cover;
+    transform: rotate(-45deg);
 }
 
 .img13::after {
@@ -289,10 +274,9 @@ img {
     background-image: url(img/iconColor_13.png);
     width: 150px;
     height: 150px;
-    right: -50%;
-    bottom: 0%;
     position: absolute;
     background-size: cover;
+    transform: rotate(-45deg);
 }
 
 .img14::after {
@@ -300,10 +284,9 @@ img {
     background-image: url(img/iconColor_14.png);
     width: 150px;
     height: 150px;
-    right: -50%;
-    bottom: 0%;
     position: absolute;
     background-size: cover;
+    transform: rotate(-45deg);
 }
 
 .img15::after {
@@ -311,10 +294,9 @@ img {
     background-image: url(img/iconColor_15.png);
     width: 150px;
     height: 150px;
-    right: -50%;
-    bottom: 0%;
     position: absolute;
     background-size: cover;
+    transform: rotate(-45deg);
 }
 
 .img16::after {
@@ -322,10 +304,9 @@ img {
     background-image: url(img/iconColor_16.png);
     width: 150px;
     height: 150px;
-    right: -50%;
-    bottom: 0%;
     position: absolute;
     background-size: cover;
+    transform: rotate(-45deg);
 }
 
 .img17::after {
@@ -333,12 +314,14 @@ img {
     background-image: url(img/iconColor_17.png);
     width: 150px;
     height: 150px;
-    right: -50%;
-    bottom: 0%;
     position: absolute;
     background-size: cover;
+    transform: rotate(-45deg);
 }
 
+.cell1 {
+    grid-area: cell1;
+}
 
 .cell2 {
     grid-area: cell2;
@@ -406,112 +389,115 @@ img {
 }
 
 @media only screen and (max-width: 1200px) and (min-width: 800px) {
-
+    .wrapForRhombus {
+        width: 12.5vw;
+        height: 12.5vw;
+    }
     .containerIcons {
         grid-template-columns: repeat(11, 8vw);
         grid-template-rows: repeat(3, 8vw);
-       }
+    }
 
     .img1::after {
-        right: -0%;
+        /*right: -0%;*/
         width: 12.5vw;
         height: 12.5vw;
     }
 
     .img2::after {
-        right: -0%;
+        /*right: -0%;*/
         width: 12.5vw;
         height: 12.5vw;
 
     }
 
     .img3::after {
-        right: -0%;
+        /*right: -0%;*/
         width: 12.5vw;
         height: 12.5vw;
 
     }
 
     .img4::after {
-        right: -0%;
+        /*right: -0%;*/
         width: 12.5vw;
         height: 12.5vw;
     }
 
     .img5::after {
-        right: 0%;
+        /*right: 0%;*/
         width: 12.5vw;
         height: 12.5vw;
     }
 
     .img6::after {
-        right: 0%;
+        /*right: 0%;*/
         width: 12.5vw;
         height: 12.5vw;
     }
 
     .img7::after {
-        right: 0%;
+        /*right: 0%;*/
         width: 12.5vw;
         height: 12.5vw;
     }
 
     .img8::after {
-        right: 0%;
+        /*right: 0%;*/
         width: 12.5vw;
         height: 12.5vw;
     }
 
     .img9::after {
-        right: 0%;
+        /*right: 0%;*/
         width: 12.5vw;
         height: 12.5vw;
     }
 
     .img10::after {
-        right: 0%;
+        /*right: 0%;*/
         width: 12.5vw;
         height: 12.5vw;
     }
 
     .img11::after {
-        right: 0%;
+        /*right: 0%;*/
         width: 12.5vw;
         height: 12.5vw;
     }
 
     .img12::after {
-        right: 0%;
+        /*right: 0%;*/
         width: 12.5vw;
         height: 12.5vw;
     }
 
     .img13::after {
-        right: 0%;
+        /*right: 0%;*/
         width: 12.5vw;
         height: 12.5vw;
     }
 
     .img14::after {
-        right: 0%;
+        /*right: 0%;*/
         width: 12.5vw;
         height: 12.5vw;
     }
 
     .img15::after {
-        right: 0%;
+        /*right: 0%;*/
         width: 12.5vw;
         height: 12.5vw;
     }
 
     .img16::after {
-        right: 0%;
+        /*right: 0%;*/
         width: 12.5vw;
         height: 12.5vw;
     }
 
     .img17::after {
-        right: 0%;
+        /*right: 0%;*/
         width: 12.5vw;
         height: 12.5vw;
     }
@@ -523,6 +509,10 @@ img {
         display: flex;
         align-items: stretch;
         align-content: stretch;
+    }
+    .wrapForRhombus {
+        width: 14vw;
+        height: 14vw;
     }
 
     .containerButton {
@@ -558,115 +548,111 @@ img {
         margin: 0;
         top: 50%;
         transform: translateY(-50%);
-        grid-template-rows: repeat(5, 10vw) ;
+        grid-template-rows: repeat(5, 10vw);
         grid-template-columns: repeat(7, 10vw);
-        grid-template-areas: ". cell1 . cell2 . cell3 . "
-                            "cell4 . cell5 . cell6 . cell7"
-                            ". cell8 . cell9 . cell10 ."
-                            "cell11 . cell12 . cell13 . cell14 "
-                            ". cell15 . cell16 . cell17 ."
+        grid-template-areas: ". cell1 . cell2 . cell3 . " "cell4 . cell5 . cell6 . cell7" ". cell8 . cell9 . cell10 ." "cell11 . cell12 . cell13 . cell14 " ". cell15 . cell16 . cell17 ."
     }
 
     .img1::after {
-        bottom: 0%;
+        left: 0%;
         width: 14vw;
         height: 14vw;
     }
 
     .img2::after {
-        bottom: 0%;
+        left: 0%;
         width: 14vw;
         height: 14vw;
 
     }
 
     .img3::after {
-        bottom: 0%;
+        left: 0%;
         width: 14vw;
         height: 14vw;
 
     }
 
     .img4::after {
-        bottom: 0%;
+        left: 0%;
         width: 14vw;
         height: 14vw;
     }
 
     .img5::after {
-        bottom: 0%;
+        left: 0%;
         width: 14vw;
         height: 14vw;
     }
 
     .img6::after {
-        bottom: 0%;
+        left: 0%;
         width: 14vw;
         height: 14vw;
     }
 
     .img7::after {
-        bottom: 0%;
+        left: 0%;
         width: 14vw;
         height: 14vw;
     }
 
     .img8::after {
-        bottom: 0%;
+        left: 0%;
         width: 14vw;
         height: 14vw;
     }
 
     .img9::after {
-        bottom: 0%;
+        left: 0%;
         width: 14vw;
         height: 14vw;
     }
 
     .img10::after {
-        bottom: 0%;
+        left: 0%;
         width: 14vw;
         height: 14vw;
     }
 
     .img11::after {
-        bottom: 0%;
+        left: 0%;
         width: 14vw;
         height: 14vw;
     }
 
     .img12::after {
-        bottom: 0%;
+        left: 0%;
         width: 14vw;
         height: 14vw;
     }
 
     .img13::after {
-        bottom: 0%;
+        left: 0%;
         width: 14vw;
         height: 14vw;
     }
 
     .img14::after {
-        bottom: 0%;
+        left: 0%;
         width: 14vw;
         height: 14vw;
     }
 
     .img15::after {
-        bottom: 0%;
+        left: 0%;
         width: 14vw;
         height: 14vw;
     }
 
     .img16::after {
-        bottom: 0%;
+        left: 0%;
         width: 14vw;
         height: 14vw;
     }
 
     .img17::after {
-        bottom: 0%;
+        left: 0%;
         width: 14vw;
         height: 14vw;
     }
